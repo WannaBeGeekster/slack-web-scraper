@@ -6,19 +6,19 @@
     "format": "prettier -w ."
   },
   "devDependencies": {
-    "all-contributors-cli": "^6.20.0",
-    "eslint": "^8.11.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.1.1",
+    "all-contributors-cli": "^6.26.1",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-jest": "^26.9.0",
     "jest": "^27.5.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.8.8"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
-    "dotenv": "^16.0.0",
-    "inquirer": "^8.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.6",
     "jsonfile": "^6.1.0",
-    "puppeteer": "^13.5.1",
+    "puppeteer": "^21.3.8",
     "sugar": "^2.0.6"
   }
 }

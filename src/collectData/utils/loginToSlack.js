@@ -18,7 +18,13 @@ async function loginToSlack(page) {
 
 async function loginAndSaveCookies(page) {
   await page.goto(process.env.SLACK_WORKSPACE_URL)
-
+  await page.goto(process.env.SLACK_WORKSPACE_LOGIN)
+//  const link = await page.$x("//a[contains(., 'sign')]")
+//  console.log("Link ", link)
+//  await page.evaluate(element => {
+//    element.click();
+//  }, link)
+//  await link[0].click()
   await page.type('#email', process.env.SLACK_EMAIL)
   await page.type('#password', process.env.SLACK_PASSWORD)
   await page.click('#signin_btn')
